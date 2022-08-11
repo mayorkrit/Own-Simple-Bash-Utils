@@ -1,0 +1,85 @@
+     1	Hello everybody out there using minix -$
+$
+     2	I'm \f doing a (free) operating system (just a hobby, won't be big and professional like gnu) for 386(486) AT clones. This has been brewing since april, and is starting to get ready. I'd like any feedback on things people like/dislike in minix, as my OS resembles it somewhat (same physical layout of the file-system (due to practical reasons) among other things).$
+$
+     3	I've \e currently ported bash(1.08) and gcc(1.40), and things seem to work. This implies that I'll get something practical within a few months, and I'd like to know what features most people would want. Any suggestions are welcome, \t but I won't promise I'll implement them :-)$
+     4	Linus (torvalds@kruuna.helsinki.fi)$
+$
+     5	PS.\a Yes - it's free of any minix code, and it has a multi-threaded fs. It is NOT portable (uses 386 task switching etc), and it probably never will support anything other than AT-harddisks, as that's all I have :-(.$
+$
+     6	�M-^@M-^T Linus Torvalds¡§$
+     7	�M-^G$
+     8	è$
+     1	Томп�M-^Aон напи�M-^Aал пе�M-^@в�M-^C�M-^N ве�M-^@�M-^Aи�M-^N на PDP-11 �M-^Oз�M-^Kке а�M-^A�M-^Aембле�M-^@а, �M-^G�M-^Bоб�M-^K помо�M-^G�M-^L �M-^[и Э. �M-^\ак�M-^\а�M-^Eон�M-^C. п�M-^@оанализи�M-^@ова�M-^B�M-^L �M-^Bек�M-^A�M-^B �M-^Wапи�M-^Aок Феде�M-^@али�M-^A�M-^Bа дл�M-^O �M-^Bого, �M-^G�M-^Bоб�M-^K оп�M-^@едели�M-^B�M-^L ав�M-^Bо�M-^@�M-^A�M-^Bво о�M-^Bдел�M-^Lн�M-^K�M-^E �M-^A�M-^Bа�M-^Bей. Тек�M-^A�M-^Bов�M-^Kй �M-^@едак�M-^Bо�M-^@ ed (�M-^Bакже �M-^Aозданн�M-^Kй Томп�M-^Aоном) имел подде�M-^@жк�M-^C �M-^@ег�M-^Cл�M-^O�M-^@н�M-^K�M-^E в�M-^K�M-^@ажений, но не мог и�M-^Aпол�M-^Lзова�M-^B�M-^L�M-^A�M-^O дл�M-^O �M-^Bакого бол�M-^L�M-^Hого об�M-^J     2	ема �M-^Bек�M-^A�M-^Bа, по�M-^M�M-^Bом�M-^C Томп�M-^Aон извлек �M-^M�M-^Bо�M-^B код в о�M-^Bдел�M-^Lн�M-^Kй ин�M-^A�M-^B�M-^@�M-^Cмен�M-^B. �M-^^н в�M-^Kб�M-^@ал �M-^M�M-^Bо название, по�M-^Bом�M-^C �M-^G�M-^Bо в ed команда g / re / p пе�M-^Gа�M-^Bала в�M-^Aе �M-^A�M-^B�M-^@оки, �M-^Aоо�M-^Bве�M-^B�M-^A�M-^Bв�M-^C�M-^N�M-^Iие заданном�M-^C �M-^Hаблон�M-^C.$
+$
+     3	grep впе�M-^@в�M-^Kе б�M-^Kл вкл�M-^N�M-^Gен в �M-^Rе�M-^@�M-^Aи�M-^N 4 Unix. �M-^Wа�M-^Oвив, �M-^G�M-^Bо он «об�M-^K�M-^Gно �M-^Cпоминае�M-^B�M-^A�M-^O как п�M-^@о�M-^Bо�M-^Bип п�M-^@ог�M-^@аммного �M-^A�M-^@ед�M-^A�M-^Bва», �M-^\акил�M-^@ой п�M-^@ипи�M-^Aал grep «безвозв�M-^@а�M-^Bное внед�M-^@ение» �M-^Dило�M-^Aо�M-^Dии ин�M-^A�M-^B�M-^@�M-^Cмен�M-^Bов Томп�M-^Aона в Unix.$
+     1	^IThe cat utility reads files sequentially, writing them to the standard output.$
+     2	^I The file operands are processed in command-line order.  $
+     3	If fileis a single dash (`-') or absent, cat reads from the standard input.$
+     4	^IIf file is a UNIX domain socket, cat connects to it and then reads it until EOF.$
+     5	This complements the UNIX domain binding capability available in inetd(8).$
+$
+     6	empty strokes 6$
+$
+     7	empty strokes 2$
+$
+     8	empty strokes 1$
+$
+     9	empty strokes 3     1	1$
+     2	2$
+     3	3$
+     4	4$
+     5	5$
+     6	5$
+     7	6$
+     8	77$
+     9	§$
+    10	^I9999$
+    11	-$
+    12	%$
+    13	$$
+     1	0 ^@ - ^@$
+     2	1 ^A - ^A$
+     3	2 ^B - ^B$
+     4	3 ^C - ^C$
+     5	4 ^D - ^D$
+     6	5 ^E - ^E$
+     7	6 ^F - ^F$
+     8	7 ^G - ^G$
+     9	8 ^H - ^H$
+    10	9 ^I - ^I$
+    11	10 ^J - $
+$
+    12	11 ^K - ^K$
+    13	12 ^L - ^L$
+    14	13 ^M - $
+    15	14 ^N - ^N$
+    16	15 ^O - ^O$
+    17	16 ^P - ^P$
+    18	17 ^Q - ^Q$
+    19	18 ^R - ^R$
+    20	19 ^S - ^S$
+    21	20 ^T - ^T$
+    22	21 ^U - ^U$
+    23	22 ^V - ^V$
+    24	23 ^W - ^W$
+    25	24 ^X - ^X$
+    26	25 ^Y - ^Y$
+    27	26 ^Z - ^Z$
+    28	27 ^[ - ^[$
+    29	28 ^\ - ^\$
+    30	29 ^] - ^]$
+    31	30 ^^ - ^^$
+    32	31 ^_ - ^_$
+    33	127 ^? - ^?     1	Not-printed chars:$
+     2	^@^A^B^C^D^E^F^G^H^I$
+     3	^K^L$
+     4	^N^O^P^Q^R^S^T^U^V^W^X^Y^Z^[^\^]^^^_ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~^?��������������������������������������������������������������������������������������������������������������������������������$
+$
+     5	^Iqqqqqq$
+     6	^Iwwww$
+$
+     7	eeee$
+     8	r^Ire$
+$
+     9	ereeeee$
